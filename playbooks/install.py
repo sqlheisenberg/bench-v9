@@ -200,7 +200,7 @@ def clone_bench_repo(args):
 		clone_path = tmp_bench_repo
 
 	branch = args.bench_branch or 'master'
-	repo_url = args.repo_url or 'https://github.com/jvfiel/bench-v9.git'
+	repo_url = args.repo_url or 'https://github.com/sqlheisenberg/bench-v9.git' #replace with  https://github.com/jvfiel/bench-v9.git after merge
 
 
 	success = run_os_command(
